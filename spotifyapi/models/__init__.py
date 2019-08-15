@@ -1,3 +1,7 @@
+from .album import Album
+from .artist import Artist
+from .audio_analysis import AudioAnalysis
+from .audio_features import AudioFeatures
 from .context import Context
 from .copyright import Copyright
 from .currently_playing import CurrentlyPlaying, CurrentlyPlayingContext
@@ -9,7 +13,13 @@ from .full_track import FullTrack
 from .image import Image
 from .paging import Paging
 from .play_history import PlayHistory
+from .saved_album import SavedAlbum
+from .saved_track import SavedTrack
+from .section import Section
+from .segment import Segment
 from .simplified_album import SimplifiedAlbum
 from .simplified_artist import SimplifiedArtist
 from .simplified_track import SimplifiedTrack
+from .time_interval import TimeInterval
 from .token import Token
+from .track import Track
