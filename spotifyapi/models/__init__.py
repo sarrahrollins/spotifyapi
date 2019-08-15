@@ -4,6 +4,7 @@ from .currently_playing import CurrentlyPlaying, CurrentlyPlayingContext
 from .device import Device
 from .followers import Followers
 from .full_album import FullAlbum
+from .full_artist import FullArtist
 from .full_track import FullTrack
 from .image import Image
 from .paging import Paging
