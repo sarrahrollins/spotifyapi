@@ -26,4 +26,3 @@ from .time_interval import TimeInterval
 from .token import Token
 from .track import Track
 from .user import User
-

@@ -1,10 +1,10 @@
-"""Provide the full artist model."""
+"""Provide the private user model."""
 from typing import Optional
 from .user import User
 
 
 class PrivateUser(User):
-    """A full user."""
+    """Private user profile."""
 
     def __init__(self, data):
         super().__init__(data)

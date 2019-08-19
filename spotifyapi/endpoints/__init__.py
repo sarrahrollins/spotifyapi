@@ -3,8 +3,9 @@ from .artist import ArtistEndpoint
 from .library import LibraryEndpoint
 from .player import PlayerEndpoint
 from .track import TrackEndpoint
-from ..models.token import Token
 from .user import UserEndpoint
+from ..models.token import Token
+
 
 
 class SpotifyEndpoint(
